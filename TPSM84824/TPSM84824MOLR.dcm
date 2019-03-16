@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TPSM84824MOLR
+D 4.5V to 17V Input, 0.6V-10V Output, 8A Power Module in Compact 7.5x7.5mm Footprint
+K
+F http://www.ti.com/lit/gpn/tpsm84824
+$ENDCMP
+#
+#End Doc Library

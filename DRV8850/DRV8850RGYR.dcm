@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DRV8850RGYR
+D Low-Voltage H-Bridge Motor Driver with LDO Voltage Regulator
+K
+F http://www.ti.com/lit/gpn/drv8850
+$ENDCMP
+#
+#End Doc Library

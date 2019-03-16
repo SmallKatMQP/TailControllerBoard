@@ -1,0 +1,416 @@
+EESchema Schematic File Version 4
+LIBS:maxonDriver-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	4700 3500 4450 3500
+Wire Wire Line
+	5700 4900 5700 5000
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5C8BDE72
+P 5700 5000
+AR Path="/5C8BDC7A/5C8BDE72" Ref="#PWR?"  Part="1" 
+AR Path="/5C8C18C4/5C8BDE72" Ref="#PWR0147"  Part="1" 
+AR Path="/5C8C18DC/5C8BDE72" Ref="#PWR?"  Part="1" 
+AR Path="/5C8C1921/5C8BDE72" Ref="#PWR?"  Part="1" 
+AR Path="/5C8C1927/5C8BDE72" Ref="#PWR?"  Part="1" 
+AR Path="/5C8C27B4/5C8BDE72" Ref="#PWR0158"  Part="1" 
+AR Path="/5C8C28DE/5C8BDE72" Ref="#PWR0169"  Part="1" 
+AR Path="/5C8C28EC/5C8BDE72" Ref="#PWR0180"  Part="1" 
+F 0 "#PWR0180" H 5700 4850 50  0001 C CNN
+F 1 "+3.3V" H 5715 5173 50  0000 C CNN
+F 2 "" H 5700 5000 50  0001 C CNN
+F 3 "" H 5700 5000 50  0001 C CNN
+	1    5700 5000
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C8BDF34
+P 5700 2700
+AR Path="/5C8BDC7A/5C8BDF34" Ref="#PWR?"  Part="1" 
+AR Path="/5C8C18C4/5C8BDF34" Ref="#PWR0148"  Part="1" 
+AR Path="/5C8C18DC/5C8BDF34" Ref="#PWR?"  Part="1" 
+AR Path="/5C8C1921/5C8BDF34" Ref="#PWR?"  Part="1" 
+AR Path="/5C8C1927/5C8BDF34" Ref="#PWR?"  Part="1" 
+AR Path="/5C8C27B4/5C8BDF34" Ref="#PWR0159"  Part="1" 
+AR Path="/5C8C28DE/5C8BDF34" Ref="#PWR0170"  Part="1" 
+AR Path="/5C8C28EC/5C8BDF34" Ref="#PWR0181"  Part="1" 
+F 0 "#PWR0181" H 5700 2450 50  0001 C CNN
+F 1 "GND" H 5705 2527 50  0000 C CNN
+F 2 "" H 5700 2700 50  0001 C CNN
+F 3 "" H 5700 2700 50  0001 C CNN
+	1    5700 2700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C8BDF87
+P 4550 3700
+AR Path="/5C8BDC7A/5C8BDF87" Ref="R?"  Part="1" 
+AR Path="/5C8C18C4/5C8BDF87" Ref="R9"  Part="1" 
+AR Path="/5C8C18DC/5C8BDF87" Ref="R?"  Part="1" 
+AR Path="/5C8C1921/5C8BDF87" Ref="R?"  Part="1" 
+AR Path="/5C8C1927/5C8BDF87" Ref="R?"  Part="1" 
+AR Path="/5C8C27B4/5C8BDF87" Ref="R10"  Part="1" 
+AR Path="/5C8C28DE/5C8BDF87" Ref="R11"  Part="1" 
+AR Path="/5C8C28EC/5C8BDF87" Ref="R12"  Part="1" 
+F 0 "R12" V 4343 3700 50  0000 C CNN
+F 1 "R" V 4434 3700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 4480 3700 50  0001 C CNN
+F 3 "~" H 4550 3700 50  0001 C CNN
+	1    4550 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5C8BE01B
+P 4400 3700
+AR Path="/5C8BDC7A/5C8BE01B" Ref="#PWR?"  Part="1" 
+AR Path="/5C8C18C4/5C8BE01B" Ref="#PWR0149"  Part="1" 
+AR Path="/5C8C18DC/5C8BE01B" Ref="#PWR?"  Part="1" 
+AR Path="/5C8C1921/5C8BE01B" Ref="#PWR?"  Part="1" 
+AR Path="/5C8C1927/5C8BE01B" Ref="#PWR?"  Part="1" 
+AR Path="/5C8C27B4/5C8BE01B" Ref="#PWR0160"  Part="1" 
+AR Path="/5C8C28DE/5C8BE01B" Ref="#PWR0171"  Part="1" 
+AR Path="/5C8C28EC/5C8BE01B" Ref="#PWR0182"  Part="1" 
+F 0 "#PWR0182" H 4400 3550 50  0001 C CNN
+F 1 "+3.3V" V 4415 3828 50  0000 L CNN
+F 2 "" H 4400 3700 50  0001 C CNN
+F 3 "" H 4400 3700 50  0001 C CNN
+	1    4400 3700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+BATT #PWR?
+U 1 1 5C8BE073
+P 2950 3100
+AR Path="/5C8BDC7A/5C8BE073" Ref="#PWR?"  Part="1" 
+AR Path="/5C8C18C4/5C8BE073" Ref="#PWR0150"  Part="1" 
+AR Path="/5C8C18DC/5C8BE073" Ref="#PWR?"  Part="1" 
+AR Path="/5C8C1921/5C8BE073" Ref="#PWR?"  Part="1" 
+AR Path="/5C8C1927/5C8BE073" Ref="#PWR?"  Part="1" 
+AR Path="/5C8C27B4/5C8BE073" Ref="#PWR0161"  Part="1" 
+AR Path="/5C8C28DE/5C8BE073" Ref="#PWR0172"  Part="1" 
+AR Path="/5C8C28EC/5C8BE073" Ref="#PWR0183"  Part="1" 
+F 0 "#PWR0183" H 2950 2950 50  0001 C CNN
+F 1 "+BATT" H 2965 3273 50  0000 C CNN
+F 2 "" H 2950 3100 50  0001 C CNN
+F 3 "" H 2950 3100 50  0001 C CNN
+	1    2950 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 3800 4450 3800
+$Comp
+L power:GND #PWR?
+U 1 1 5C8BE10A
+P 4700 3900
+AR Path="/5C8BDC7A/5C8BE10A" Ref="#PWR?"  Part="1" 
+AR Path="/5C8C18C4/5C8BE10A" Ref="#PWR0151"  Part="1" 
+AR Path="/5C8C18DC/5C8BE10A" Ref="#PWR?"  Part="1" 
+AR Path="/5C8C1921/5C8BE10A" Ref="#PWR?"  Part="1" 
+AR Path="/5C8C1927/5C8BE10A" Ref="#PWR?"  Part="1" 
+AR Path="/5C8C27B4/5C8BE10A" Ref="#PWR0162"  Part="1" 
+AR Path="/5C8C28DE/5C8BE10A" Ref="#PWR0173"  Part="1" 
+AR Path="/5C8C28EC/5C8BE10A" Ref="#PWR0184"  Part="1" 
+F 0 "#PWR0184" H 4700 3650 50  0001 C CNN
+F 1 "GND" V 4705 3772 50  0000 R CNN
+F 2 "" H 4700 3900 50  0001 C CNN
+F 3 "" H 4700 3900 50  0001 C CNN
+	1    4700 3900
+	0    1    1    0   
+$EndComp
+NoConn ~ 5000 4900
+NoConn ~ 6100 4200
+NoConn ~ 5800 2700
+Wire Wire Line
+	6100 3500 6100 3600
+Connection ~ 6100 3600
+Wire Wire Line
+	6100 3600 6100 3700
+Wire Wire Line
+	6100 3600 6200 3600
+$Comp
+L power:GND #PWR?
+U 1 1 5C8BE1B4
+P 6200 3600
+AR Path="/5C8BDC7A/5C8BE1B4" Ref="#PWR?"  Part="1" 
+AR Path="/5C8C18C4/5C8BE1B4" Ref="#PWR0152"  Part="1" 
+AR Path="/5C8C18DC/5C8BE1B4" Ref="#PWR?"  Part="1" 
+AR Path="/5C8C1921/5C8BE1B4" Ref="#PWR?"  Part="1" 
+AR Path="/5C8C1927/5C8BE1B4" Ref="#PWR?"  Part="1" 
+AR Path="/5C8C27B4/5C8BE1B4" Ref="#PWR0163"  Part="1" 
+AR Path="/5C8C28DE/5C8BE1B4" Ref="#PWR0174"  Part="1" 
+AR Path="/5C8C28EC/5C8BE1B4" Ref="#PWR0185"  Part="1" 
+F 0 "#PWR0185" H 6200 3350 50  0001 C CNN
+F 1 "GND" V 6205 3472 50  0000 R CNN
+F 2 "" H 6200 3600 50  0001 C CNN
+F 3 "" H 6200 3600 50  0001 C CNN
+	1    6200 3600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6100 3900 6100 4000
+Connection ~ 6100 4000
+Wire Wire Line
+	6100 4000 6100 4100
+Wire Wire Line
+	6100 4000 6250 4000
+$Comp
+L power:GND #PWR?
+U 1 1 5C8BE26E
+P 6250 4000
+AR Path="/5C8BDC7A/5C8BE26E" Ref="#PWR?"  Part="1" 
+AR Path="/5C8C18C4/5C8BE26E" Ref="#PWR0153"  Part="1" 
+AR Path="/5C8C18DC/5C8BE26E" Ref="#PWR?"  Part="1" 
+AR Path="/5C8C1921/5C8BE26E" Ref="#PWR?"  Part="1" 
+AR Path="/5C8C1927/5C8BE26E" Ref="#PWR?"  Part="1" 
+AR Path="/5C8C27B4/5C8BE26E" Ref="#PWR0164"  Part="1" 
+AR Path="/5C8C28DE/5C8BE26E" Ref="#PWR0175"  Part="1" 
+AR Path="/5C8C28EC/5C8BE26E" Ref="#PWR0186"  Part="1" 
+F 0 "#PWR0186" H 6250 3750 50  0001 C CNN
+F 1 "GND" V 6255 3872 50  0000 R CNN
+F 2 "" H 6250 4000 50  0001 C CNN
+F 3 "" H 6250 4000 50  0001 C CNN
+	1    6250 4000
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 6100 3800
+Wire Wire Line
+	5300 2700 5400 2700
+Connection ~ 5400 2700
+Wire Wire Line
+	5400 2700 5400 2500
+Wire Wire Line
+	5300 4900 5400 4900
+Connection ~ 5400 4900
+Wire Wire Line
+	5400 4900 5400 5050
+$Comp
+L Device:C C?
+U 1 1 5C8BE563
+P 2950 3300
+AR Path="/5C8BDC7A/5C8BE563" Ref="C?"  Part="1" 
+AR Path="/5C8C18C4/5C8BE563" Ref="C13"  Part="1" 
+AR Path="/5C8C18DC/5C8BE563" Ref="C?"  Part="1" 
+AR Path="/5C8C1921/5C8BE563" Ref="C?"  Part="1" 
+AR Path="/5C8C1927/5C8BE563" Ref="C?"  Part="1" 
+AR Path="/5C8C27B4/5C8BE563" Ref="C16"  Part="1" 
+AR Path="/5C8C28DE/5C8BE563" Ref="C19"  Part="1" 
+AR Path="/5C8C28EC/5C8BE563" Ref="C22"  Part="1" 
+F 0 "C22" H 3065 3346 50  0000 L CNN
+F 1 "C" H 3065 3255 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 2988 3150 50  0001 C CNN
+F 3 "~" H 2950 3300 50  0001 C CNN
+	1    2950 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C8BE5CC
+P 2950 3500
+AR Path="/5C8BDC7A/5C8BE5CC" Ref="#PWR?"  Part="1" 
+AR Path="/5C8C18C4/5C8BE5CC" Ref="#PWR0154"  Part="1" 
+AR Path="/5C8C18DC/5C8BE5CC" Ref="#PWR?"  Part="1" 
+AR Path="/5C8C1921/5C8BE5CC" Ref="#PWR?"  Part="1" 
+AR Path="/5C8C1927/5C8BE5CC" Ref="#PWR?"  Part="1" 
+AR Path="/5C8C27B4/5C8BE5CC" Ref="#PWR0165"  Part="1" 
+AR Path="/5C8C28DE/5C8BE5CC" Ref="#PWR0176"  Part="1" 
+AR Path="/5C8C28EC/5C8BE5CC" Ref="#PWR0187"  Part="1" 
+F 0 "#PWR0187" H 2950 3250 50  0001 C CNN
+F 1 "GND" H 2955 3327 50  0000 C CNN
+F 2 "" H 2950 3500 50  0001 C CNN
+F 3 "" H 2950 3500 50  0001 C CNN
+	1    2950 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 3450 2950 3500
+Wire Wire Line
+	2950 3100 2950 3150
+Wire Wire Line
+	2950 3150 3300 3150
+Connection ~ 2950 3150
+Text Label 3300 3150 0    50   ~ 0
+VPWR
+$Comp
+L Device:C C?
+U 1 1 5C8BE9BF
+P 2750 3300
+AR Path="/5C8BDC7A/5C8BE9BF" Ref="C?"  Part="1" 
+AR Path="/5C8C18C4/5C8BE9BF" Ref="C12"  Part="1" 
+AR Path="/5C8C18DC/5C8BE9BF" Ref="C?"  Part="1" 
+AR Path="/5C8C1921/5C8BE9BF" Ref="C?"  Part="1" 
+AR Path="/5C8C1927/5C8BE9BF" Ref="C?"  Part="1" 
+AR Path="/5C8C27B4/5C8BE9BF" Ref="C15"  Part="1" 
+AR Path="/5C8C28DE/5C8BE9BF" Ref="C18"  Part="1" 
+AR Path="/5C8C28EC/5C8BE9BF" Ref="C21"  Part="1" 
+F 0 "C21" H 2865 3346 50  0000 L CNN
+F 1 "C" H 2865 3255 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 2788 3150 50  0001 C CNN
+F 3 "~" H 2750 3300 50  0001 C CNN
+	1    2750 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 3150 2950 3150
+Wire Wire Line
+	2750 3450 2950 3450
+Connection ~ 2950 3450
+Text Label 4450 3800 2    50   ~ 0
+VPWR
+Wire Wire Line
+	4700 4000 4450 4000
+Text Label 4450 4000 2    50   ~ 0
+VPWR
+NoConn ~ 4700 4200
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5C8BF85D
+P 5100 4900
+AR Path="/5C8BDC7A/5C8BF85D" Ref="#PWR?"  Part="1" 
+AR Path="/5C8C18C4/5C8BF85D" Ref="#PWR0155"  Part="1" 
+AR Path="/5C8C18DC/5C8BF85D" Ref="#PWR?"  Part="1" 
+AR Path="/5C8C1921/5C8BF85D" Ref="#PWR?"  Part="1" 
+AR Path="/5C8C1927/5C8BF85D" Ref="#PWR?"  Part="1" 
+AR Path="/5C8C27B4/5C8BF85D" Ref="#PWR0166"  Part="1" 
+AR Path="/5C8C28DE/5C8BF85D" Ref="#PWR0177"  Part="1" 
+AR Path="/5C8C28EC/5C8BF85D" Ref="#PWR0188"  Part="1" 
+F 0 "#PWR0188" H 5100 4750 50  0001 C CNN
+F 1 "+3.3V" H 5115 5073 50  0000 C CNN
+F 2 "" H 5100 4900 50  0001 C CNN
+F 3 "" H 5100 4900 50  0001 C CNN
+	1    5100 4900
+	-1   0    0    1   
+$EndComp
+Text Label 5200 5150 3    50   ~ 0
+VPWR
+Wire Wire Line
+	5200 4900 5200 5150
+Wire Wire Line
+	5100 2700 5100 2450
+$Comp
+L Device:C C?
+U 1 1 5C8C02EF
+P 5100 2300
+AR Path="/5C8BDC7A/5C8C02EF" Ref="C?"  Part="1" 
+AR Path="/5C8C18C4/5C8C02EF" Ref="C14"  Part="1" 
+AR Path="/5C8C18DC/5C8C02EF" Ref="C?"  Part="1" 
+AR Path="/5C8C1921/5C8C02EF" Ref="C?"  Part="1" 
+AR Path="/5C8C1927/5C8C02EF" Ref="C?"  Part="1" 
+AR Path="/5C8C27B4/5C8C02EF" Ref="C17"  Part="1" 
+AR Path="/5C8C28DE/5C8C02EF" Ref="C20"  Part="1" 
+AR Path="/5C8C28EC/5C8C02EF" Ref="C23"  Part="1" 
+F 0 "C23" H 5215 2346 50  0000 L CNN
+F 1 "C" H 5215 2255 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5138 2150 50  0001 C CNN
+F 3 "~" H 5100 2300 50  0001 C CNN
+	1    5100 2300
+	1    0    0    -1  
+$EndComp
+Text Label 5100 2150 1    50   ~ 0
+VPWR
+$Comp
+L power:GND #PWR?
+U 1 1 5C8C0367
+P 5000 2700
+AR Path="/5C8BDC7A/5C8C0367" Ref="#PWR?"  Part="1" 
+AR Path="/5C8C18C4/5C8C0367" Ref="#PWR0156"  Part="1" 
+AR Path="/5C8C18DC/5C8C0367" Ref="#PWR?"  Part="1" 
+AR Path="/5C8C1921/5C8C0367" Ref="#PWR?"  Part="1" 
+AR Path="/5C8C1927/5C8C0367" Ref="#PWR?"  Part="1" 
+AR Path="/5C8C27B4/5C8C0367" Ref="#PWR0167"  Part="1" 
+AR Path="/5C8C28DE/5C8C0367" Ref="#PWR0178"  Part="1" 
+AR Path="/5C8C28EC/5C8C0367" Ref="#PWR0189"  Part="1" 
+F 0 "#PWR0189" H 5000 2450 50  0001 C CNN
+F 1 "GND" H 5005 2527 50  0000 C CNN
+F 2 "" H 5000 2700 50  0001 C CNN
+F 3 "" H 5000 2700 50  0001 C CNN
+	1    5000 2700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5200 2700 5200 2600
+Text Label 5200 2600 1    50   ~ 0
+VPWR
+Wire Wire Line
+	5500 2700 5600 2700
+Wire Wire Line
+	5400 2700 5500 2700
+Connection ~ 5500 2700
+Wire Wire Line
+	5500 4900 5600 4900
+Wire Wire Line
+	5400 4900 5500 4900
+Connection ~ 5500 4900
+$Comp
+L MC33926PNB:MC33926PNB IC?
+U 1 1 5C8BDD41
+P 4700 3500
+AR Path="/5C8BDC7A/5C8BDD41" Ref="IC?"  Part="1" 
+AR Path="/5C8C18C4/5C8BDD41" Ref="IC2"  Part="1" 
+AR Path="/5C8C18DC/5C8BDD41" Ref="IC?"  Part="1" 
+AR Path="/5C8C1921/5C8BDD41" Ref="IC?"  Part="1" 
+AR Path="/5C8C1927/5C8BDD41" Ref="IC?"  Part="1" 
+AR Path="/5C8C27B4/5C8BDD41" Ref="IC3"  Part="1" 
+AR Path="/5C8C28DE/5C8BDD41" Ref="IC4"  Part="1" 
+AR Path="/5C8C28EC/5C8BDD41" Ref="IC5"  Part="1" 
+F 0 "IC5" H 6141 3246 50  0000 L CNN
+F 1 "MC33926PNB" H 6141 3155 50  0000 L CNN
+F 2 "mc33926:QFN80P800X800X220-33N" H 5950 4100 50  0001 L CNN
+F 3 "http://cache.nxp.com/files/analog/doc/data_sheet/MC33926.pdf" H 5950 4000 50  0001 L CNN
+F 4 "Motor / Motion / Ignition Controllers & Drivers THROTTLE CTRL H-BRIDGE" H 5950 3900 50  0001 L CNN "Description"
+F 5 "2.2" H 5950 3800 50  0001 L CNN "Height"
+F 6 "Nexperia" H 5950 3700 50  0001 L CNN "Manufacturer_Name"
+F 7 "MC33926PNB" H 5950 3600 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "" H 5950 3500 50  0001 L CNN "RS Part Number"
+F 9 "" H 5950 3400 50  0001 L CNN "RS Price/Stock"
+F 10 "MC33926PNB" H 5950 3300 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/mc33926pnb/nxp-semiconductors" H 5950 3200 50  0001 L CNN "Arrow Price/Stock"
+	1    4700 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C8C1083
+P 4700 3600
+AR Path="/5C8BDC7A/5C8C1083" Ref="#PWR?"  Part="1" 
+AR Path="/5C8C18C4/5C8C1083" Ref="#PWR0157"  Part="1" 
+AR Path="/5C8C18DC/5C8C1083" Ref="#PWR?"  Part="1" 
+AR Path="/5C8C1921/5C8C1083" Ref="#PWR?"  Part="1" 
+AR Path="/5C8C1927/5C8C1083" Ref="#PWR?"  Part="1" 
+AR Path="/5C8C27B4/5C8C1083" Ref="#PWR0168"  Part="1" 
+AR Path="/5C8C28DE/5C8C1083" Ref="#PWR0179"  Part="1" 
+AR Path="/5C8C28EC/5C8C1083" Ref="#PWR0190"  Part="1" 
+F 0 "#PWR0190" H 4700 3350 50  0001 C CNN
+F 1 "GND" V 4705 3472 50  0000 R CNN
+F 2 "" H 4700 3600 50  0001 C CNN
+F 3 "" H 4700 3600 50  0001 C CNN
+	1    4700 3600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4700 4100 4450 4100
+Text HLabel 5400 5050 3    50   Output ~ 0
+OUT1
+Text HLabel 5400 2500 1    50   Output ~ 0
+OUT2
+Text HLabel 4450 3500 0    50   Input ~ 0
+PWM
+Text HLabel 4450 4100 0    50   Input ~ 0
+INV
+$EndSCHEMATC
